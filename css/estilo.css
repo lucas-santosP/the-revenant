@@ -1,0 +1,33 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+}
+.cv {
+  /*border: rgb(141, 141, 141) solid 4px;*/
+  border-radius: 3px;
+  margin-top: 10px;
+}
+@keyframes scale-fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.container {
+  text-align: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+  background-color: black;
+}
+
+.bg-custom {
+  animation: scale-fade 0.5s;
+  animation-delay: 0s;
+  animation-fill-mode: backwards;
+  background-image: linear-gradient(#75a7f3, #111f6f);
+}
