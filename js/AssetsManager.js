@@ -9,7 +9,7 @@ function AssetsManager() {
   for (var i = 0; i < this.MAX_CHANNELS; i++) {
     this.channels[i] = {
       audio: new Audio(),
-      fim: -1
+      fim: -1,
     };
   }
 }
@@ -52,8 +52,7 @@ AssetsManager.prototype.playSoundEffect = function (key, volume, loop_cond) {
       var agora = new Date();
       if (this.channels[i].fim < agora.getTime()) {
         this.channels[i].audio.src = this.audios[key].audio.src;
-        this.channels[i].fim =
-          agora.getTime() + this.audios[key].audio.duration * 1000;
+        this.channels[i].fim = agora.getTime() + this.audios[key].audio.duration * 1000;
         this.channels[i].audio.volume = volume;
         this.channels[i].audio.loop = loop_cond;
         this.channels[i].audio.play();

@@ -11,16 +11,15 @@ function Map(modelo) {
     totalPts: 0,
     K: 0,
     //Vetor de paredes dividos em 4 partes
-    walls00: [],
-    walls10: [],
-    walls01: [],
-    walls11: [],
+    wallsLeft: [],
+    wallsRight: [],
+
     //Vetores de NPCs
     spikes: [],
     serrasLineares: [],
     serrasCirculares: [],
     checkPoints: [],
-    coracoes: []
+    coracoes: [],
   };
   Object.assign(this, exemplo, modelo);
 }
@@ -39,10 +38,8 @@ Map.prototype.respawnNPCs = function () {
 };
 Map.prototype.criaFase = function () {
   this.cells.length = 0;
-  this.walls00.length = 0;
-  this.walls10.length = 0;
-  this.walls01.length = 0;
-  this.walls11.length = 0;
+  this.wallsLeft.length = 0;
+  this.wallsRight.length = 0;
   this.spikes.length = 0;
   this.serrasLineares.length = 0;
   this.serrasCirculares.length = 0;
@@ -72,20 +69,15 @@ Map.prototype.criaFase = function () {
               x: c * this.SIZE,
               y: l * this.SIZE,
               w: this.SIZE,
-              h: this.SIZE
+              h: this.SIZE,
             };
-            if (c <= 15 && l <= 11) {
-              this.walls00.push(parede);
+
+            if (c < 16) {
+              this.wallsLeft.push(parede);
+            } else {
+              this.wallsRight.push(parede);
             }
-            if (c >= 15 && l <= 11) {
-              this.walls10.push(parede);
-            }
-            else if (c <= 15 && l >= 11) {
-              this.walls01.push(parede);
-            }
-            if (c >= 15 && l <= 11) {
-              this.walls11.push(parede);
-            }
+
             break;
           case 3: //Spikes
             this.spikes.push(
@@ -95,7 +87,7 @@ Map.prototype.criaFase = function () {
                 rotacao: 20,
                 assets: this.assets,
                 mapa: this,
-                ctx: this.ctx
+                ctx: this.ctx,
               })
             );
             break;
@@ -110,7 +102,7 @@ Map.prototype.criaFase = function () {
                 direcao: this.cells[c][l].direcao,
                 assets: this.assets,
                 mapa: this,
-                ctx: this.ctx
+                ctx: this.ctx,
               })
             );
             break;
@@ -124,7 +116,7 @@ Map.prototype.criaFase = function () {
                 vy: this.cells[c][l].vy,
                 assets: this.assets,
                 mapa: this,
-                ctx: this.ctx
+                ctx: this.ctx,
               })
             );
             break;
@@ -138,7 +130,7 @@ Map.prototype.criaFase = function () {
                 h: 32,
                 assets: this.assets,
                 mapa: this,
-                ctx: this.ctx
+                ctx: this.ctx,
               })
             );
             break;
@@ -151,7 +143,7 @@ Map.prototype.criaFase = function () {
                 ativo: true,
                 assets: this.assets,
                 mapa: this,
-                ctx: this.ctx
+                ctx: this.ctx,
               })
             );
             break;

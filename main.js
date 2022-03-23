@@ -40,1420 +40,7 @@ var mapa = new Map({
 });
 
 function addFases() {
-  return [
-    [
-      [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-      ],
-      [
-        1,
-        5,
-        0,
-        0,
-        0,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-      ],
-      [
-        1,
-        1,
-        1,
-        1,
-        0,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-      ],
-      [
-        1,
-        1,
-        1,
-        1,
-        0,
-        1,
-        1,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        5,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-      ],
-      [
-        1,
-        1,
-        1,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        { tipo: 4, vx: 2, direcao: "x" },
-        0,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-      ],
-      [
-        1,
-        1,
-        1,
-        0,
-        0,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-      ],
-      [
-        1,
-        1,
-        1,
-        6,
-        5,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-      ],
-      [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-      ],
-      [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-      ],
-      [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-      ],
-      [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-      ],
-      [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-      ],
-      [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-      ],
-      [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-      ],
-      [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-      ],
-      [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-      ],
-      [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-      ],
-      [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-      ],
-      [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-      ],
-      [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-      ],
-      [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-      ],
-      [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-      ],
-    ],
-    [
-      [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-      ],
-      [
-        1,
-        5,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        { tipo: -4, vx: 3.8, vy: 3.8 },
-        0,
-        0,
-        0,
-        1,
-      ],
-      [
-        1,
-        0,
-        1,
-        0,
-        1,
-        0,
-        1,
-        1,
-        1,
-        1,
-        1,
-        0,
-        1,
-        0,
-        1,
-        0,
-        1,
-        0,
-        0,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        0,
-        1,
-        1,
-        0,
-        1,
-      ],
-      [
-        1,
-        0,
-        1,
-        0,
-        1,
-        { tipo: 4, vx: 2, direcao: "x" },
-        0,
-        0,
-        { tipo: 4, vy: 1, direcao: "y" },
-        0,
-        0,
-        0,
-        1,
-        { tipo: 4, vx: 2, direcao: "x" },
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        1,
-        1,
-        { tipo: 4, vy: 1.2, direcao: "y" },
-        1,
-        0,
-        1,
-        1,
-        0,
-        1,
-      ],
-      [
-        1,
-        { tipo: 4, vx: 1.3, direcao: "x" },
-        0,
-        0,
-        1,
-        0,
-        1,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        1,
-        0,
-        1,
-        0,
-        0,
-        0,
-        1,
-        0,
-        5,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        1,
-      ],
-      [
-        1,
-        1,
-        1,
-        1,
-        1,
-        0,
-        1,
-        0,
-        0,
-        1,
-        0,
-        { tipo: 4, vy: 2, direcao: "y" },
-        1,
-        { tipo: 4, vy: 2, direcao: "y" },
-        0,
-        0,
-        0,
-        0,
-        0,
-        { tipo: 4, vx: 2, direcao: "x" },
-        1,
-        0,
-        1,
-        0,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-      ],
-      [
-        1,
-        { tipo: 4, vx: 3, direcao: "x" },
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        1,
-        1,
-        0,
-        1,
-        1,
-        0,
-        1,
-        0,
-        1,
-        0,
-        0,
-        0,
-        1,
-        0,
-        1,
-        { tipo: 4, vx: 2, direcao: "x" },
-        0,
-        0,
-        0,
-        0,
-        { tipo: 4, vy: 2.8, direcao: "y" },
-        1,
-      ],
-      [
-        1,
-        0,
-        1,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        { tipo: -4, vx: 0.6, vy: 3.8 },
-        0,
-        0,
-        1,
-        { tipo: 4, vx: 3.5, direcao: "x" },
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-      ],
-      [
-        1,
-        0,
-        1,
-        0,
-        1,
-        0,
-        1,
-        0,
-        1,
-        3,
-        3,
-        3,
-        1,
-        0,
-        1,
-        0,
-        1,
-        0,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        0,
-        1,
-        1,
-        0,
-        0,
-        1,
-      ],
-      [
-        1,
-        { tipo: 4, vx: 2, direcao: "x" },
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        1,
-        0,
-        3,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-      ],
-      [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        0,
-        1,
-        0,
-        3,
-        0,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        0,
-        1,
-      ],
-      [
-        1,
-        0,
-        6,
-        1,
-        0,
-        { tipo: -4, vx: 3.4, vy: 3.4 },
-        3,
-        0,
-        1,
-        0,
-        3,
-        0,
-        3,
-        0,
-        0,
-        0,
-        0,
-        { tipo: 4, vy: 2, direcao: "y" },
-        1,
-        0,
-        6,
-        { tipo: -4, vx: 3.3, vy: 3.3 },
-        1,
-        0,
-        5,
-        { tipo: 4, vy: 3.5, direcao: "y" },
-        1,
-        1,
-        0,
-        1,
-      ],
-      [
-        1,
-        0,
-        0,
-        1,
-        0,
-        0,
-        1,
-        0,
-        1,
-        0,
-        3,
-        0,
-        3,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        3,
-        0,
-        3,
-        0,
-        1,
-        0,
-        0,
-        3,
-        0,
-        1,
-      ],
-      [
-        1,
-        0,
-        1,
-        1,
-        0,
-        0,
-        3,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        1,
-        1,
-        0,
-        1,
-      ],
-      [
-        1,
-        0,
-        1,
-        1,
-        0,
-        0,
-        1,
-        0,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        0,
-        1,
-        0,
-        1,
-        1,
-        1,
-        1,
-        0,
-        0,
-        1,
-        0,
-        0,
-        3,
-        0,
-        1,
-      ],
-      [
-        1,
-        0,
-        1,
-        1,
-        0,
-        0,
-        3,
-        0,
-        1,
-        { tipo: -4, vx: 3.3, vy: 3.3 },
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        1,
-        3,
-        3,
-        3,
-        3,
-        0,
-        3,
-        0,
-        1,
-        1,
-        0,
-        1,
-      ],
-      [
-        1,
-        0,
-        1,
-        0,
-        0,
-        0,
-        1,
-        0,
-        1,
-        0,
-        1,
-        1,
-        1,
-        1,
-        1,
-        0,
-        1,
-        0,
-        3,
-        0,
-        0,
-        0,
-        0,
-        0,
-        3,
-        0,
-        0,
-        3,
-        0,
-        1,
-      ],
-      [
-        1,
-        0,
-        3,
-        0,
-        1,
-        0,
-        3,
-        0,
-        1,
-        0,
-        1,
-        0,
-        6,
-        0,
-        1,
-        0,
-        1,
-        0,
-        3,
-        0,
-        3,
-        3,
-        3,
-        3,
-        1,
-        0,
-        1,
-        1,
-        0,
-        1,
-      ],
-      [
-        1,
-        { tipo: 4, vy: 2.5, direcao: "y" },
-        0,
-        0,
-        1,
-        0,
-        1,
-        0,
-        1,
-        0,
-        1,
-        0,
-        0,
-        0,
-        1,
-        0,
-        1,
-        0,
-        3,
-        0,
-        0,
-        0,
-        0,
-        0,
-        3,
-        0,
-        0,
-        3,
-        0,
-        1,
-      ],
-      [
-        1,
-        3,
-        1,
-        1,
-        1,
-        0,
-        3,
-        0,
-        5,
-        0,
-        1,
-        0,
-        0,
-        0,
-        1,
-        0,
-        1,
-        0,
-        3,
-        3,
-        3,
-        3,
-        3,
-        0,
-        3,
-        0,
-        0,
-        1,
-        0,
-        1,
-      ],
-      [
-        1,
-        3,
-        1,
-        1,
-        1,
-        0,
-        0,
-        0,
-        1,
-        0,
-        3,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        3,
-        1,
-        0,
-        0,
-        0,
-        1,
-      ],
-      [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-      ],
-    ],
-  ];
+  return [...stages];
 }
 
 var pc = new Sprite({
@@ -1573,7 +160,9 @@ function update() {
   if (!hit) {
     //Somente mover quando terminar a animação de morte.
   }
+
   pc.mover(teclas); //move Sprite
+
   //Chama função para decidir qual quarto do mapa vai verificar a colisão com base na posição atual do pc
   colisãoComParedes();
 
@@ -1651,80 +240,25 @@ function render() {
 }
 
 function colisãoComParedes() {
-  if (pc.ml < 11) {
-    //Se pc esta na parte decima
-    if (pc.mc < 15) {
-      //console.log("Em: walls00");
-      for (const i in mapa.walls00) {
-        pc.colisaoMap(mapa.walls00[i]);
-      }
-    } else if (pc.mc > 15) {
-      //console.log("Em: walls10");
-      for (const i in mapa.walls10) {
-        pc.colisaoMap(mapa.walls10[i]);
-      }
-    } else {
-      //console.log("Em: ambos decima");
-      for (const i in mapa.walls10) {
-        pc.colisaoMap(mapa.walls10[i]);
-      }
-      for (const i in mapa.walls00) {
-        pc.colisaoMap(mapa.walls00[i]);
-      }
+  // intersecção
+  if (pc.mc >= 15 && pc.mc <= 16) {
+    for (const i in mapa.wallsLeft) {
+      const colidiu = pc.colisaoMap(mapa.wallsLeft[i]);
+      if (colidiu) return;
     }
-  } else if (pc.ml > 11) {
-    //Se pc esta na parte debaixo
-    if (pc.mc < 15) {
-      //console.log("Em: walls01");
-      for (const i in mapa.walls01) {
-        pc.colisaoMap(mapa.walls01[i]);
-      }
-    } else if (pc.mc > 15) {
-      //console.log("Em: walls11");
-      for (const i in mapa.walls11) {
-        pc.colisaoMap(mapa.walls11[i]);
-      }
-    } else {
-      //console.log("Em: ambos debaixo");
-      for (const i in mapa.walls01) {
-        pc.colisaoMap(mapa.walls01[i]);
-      }
-      for (const i in mapa.walls11) {
-        pc.colisaoMap(mapa.walls11[i]);
-      }
+    for (const i in mapa.wallsRight) {
+      const colidiu = pc.colisaoMap(mapa.wallsRight[i]);
+      if (colidiu) return;
+    }
+  } else if (pc.mc < 16) {
+    for (const i in mapa.wallsLeft) {
+      const colidiu = pc.colisaoMap(mapa.wallsLeft[i]);
+      if (colidiu) return;
     }
   } else {
-    //Se pc esta no meio
-    if (pc.mc < 15) {
-      //console.log("Em: ambos esquerda");
-      for (const i in mapa.walls00) {
-        pc.colisaoMap(mapa.walls00[i]);
-      }
-      for (const i in mapa.walls01) {
-        pc.colisaoMap(mapa.walls01[i]);
-      }
-    } else if (pc.mc > 15) {
-      //console.log("Em: ambos direita");
-      for (const i in mapa.walls11) {
-        pc.colisaoMap(mapa.walls11[i]);
-      }
-      for (const i in mapa.walls10) {
-        pc.colisaoMap(mapa.walls10[i]);
-      }
-    } else {
-      //console.log("Em: TODOS!");
-      for (const i in mapa.walls11) {
-        pc.colisaoMap(mapa.walls11[i]);
-      }
-      for (const i in mapa.walls10) {
-        pc.colisaoMap(mapa.walls10[i]);
-      }
-      for (const i in mapa.walls00) {
-        pc.colisaoMap(mapa.walls00[i]);
-      }
-      for (const i in mapa.walls01) {
-        pc.colisaoMap(mapa.walls01[i]);
-      }
+    for (const i in mapa.wallsRight) {
+      const colidiu = pc.colisaoMap(mapa.wallsRight[i]);
+      if (colidiu) return;
     }
   }
 }
@@ -1775,20 +309,8 @@ function menu_selector() {
     cor_play = "white";
     cor_tutorial = "black";
   }
-  ctx.drawImage(
-    assetsMng.img("menu-noSelect"),
-    cnv.width / 2 - 155,
-    500,
-    300,
-    60
-  );
-  ctx.drawImage(
-    assetsMng.img("menu-noSelect"),
-    cnv.width / 2 - 155,
-    600,
-    300,
-    60
-  );
+  ctx.drawImage(assetsMng.img("menu-noSelect"), cnv.width / 2 - 155, 500, 300, 60);
+  ctx.drawImage(assetsMng.img("menu-noSelect"), cnv.width / 2 - 155, 600, 300, 60);
   selecter.desenharMenu();
   ctx.font = "30px arial";
   ctx.fillStyle = cor_play;
@@ -1814,13 +336,7 @@ function menu_selector() {
 
 function desenha_menu_tutorial() {
   ctx.fillStyle = "white";
-  ctx.drawImage(
-    assetsMng.img("menu-select"),
-    cnv.width / 2 - 150,
-    635,
-    300,
-    60
-  );
+  ctx.drawImage(assetsMng.img("menu-select"), cnv.width / 2 - 150, 635, 300, 60);
   ctx.font = "30px arial";
   ctx.fillText("Voltar", cnv.width / 2 - 40, 675);
 
@@ -1886,20 +402,15 @@ function gameOver() {
   ctx.fillRect(cnv.width / 2 - 110, cnv.height / 2 + 60, 200, 40);
   ctx.strokeRect(cnv.width / 2 - 110, cnv.height / 2 + 60, 200, 40);
   ctx.fillStyle = "white";
-  faseAtual = 1;
   ctx.fillText("RESTART", cnv.width / 2 - 70, cnv.height / 2 + 90);
-  document.querySelector("canvas").addEventListener(
-    "click",
-    function _listener() {
-      document
-        .querySelector("canvas")
-        .removeEventListener("click", _listener, true);
-      assetsMng.PauseOST("soundGameOver");
-      estado_menu = "selecting";
-      game_state = "menu";
-    },
-    true
-  );
+  faseAtual = 1;
+
+  if (enter) {
+    assetsMng.PauseOST("soundGameOver");
+    restart();
+    estado_menu = "selecting";
+    game_state = "menu";
+  }
 }
 
 //Se juntou todos os pontos
@@ -1921,26 +432,21 @@ function venceu() {
   ctx.lineWidth = 2;
   ctx.strokeStyle = "white";
   ctx.fillStyle = "blue";
-  ctx.fillRect(cnv.width / 2 - 110, cnv.height / 2 + 60, 200, 40);
-  ctx.strokeRect(cnv.width / 2 - 110, cnv.height / 2 + 60, 200, 40);
+  ctx.fillRect(cnv.width / 2 - 110, cnv.height / 2 + 60, 245, 40);
+  ctx.strokeRect(cnv.width / 2 - 110, cnv.height / 2 + 60, 245, 40);
   ctx.fillStyle = "white";
-  ctx.fillText("NEXT STAGE", cnv.width / 2 - 100, cnv.height / 2 + 90);
+  ctx.fillText("BACK TO MENU", cnv.width / 2 - 100, cnv.height / 2 + 90);
 
-  if (pontos != 0) {
-    document.querySelector("canvas").addEventListener(
-      "click",
-      function _listener() {
-        document
-          .querySelector("canvas")
-          .removeEventListener("click", _listener, true);
-        assetsMng.PauseOST("soundWin");
-        assetsMng.PlayOST("soundTrack", 0.1, true);
-        cooldown = 0.5;
-        restart();
-        game_state = "playing";
-      },
-      true
-    );
+  ctx.font = "20px bold roboto";
+  ctx.fillText("press enter", cnv.width / 2 - 35, cnv.height / 2 + 150);
+
+  if (pontos != 0 && enter) {
+    assetsMng.PauseOST("soundWin");
+    faseAtual = 1;
+    cooldown = 0.5;
+    estado_menu = "selecting";
+    game_state = "menu";
+    restart();
   }
 }
 
@@ -1979,42 +485,43 @@ function desenhaHUD() {
 }
 
 function inicio() {
-  ctx.globalAlpha = 1;
-  ctx.fillStyle = "black";
-  ctx.fillRect(0, 0, cnv.width, cnv.height);
-  ctx.font = "30px ARIAL";
-  ctx.fillStyle = "white";
-  ctx.lineWidth = 2;
-  ctx.fillText(
-    "Click to start the game!",
-    cnv.width / 2 - 150,
-    cnv.height / 2 + 90
-  );
-
-  //style.backgroundColor = "black";
-  //document.querySelector('canvas').addEventListener("click", function _listener() {
-  //	document.querySelector('canvas').removeEventListener("click", _listener, true);
-  document.querySelector("#div_cnv").classList.add("bg-custom");
   game_state = "menu";
   restart_menu();
   requestAnimationFrame(loop);
-  //}, true);
 }
+
+let stackKeysDown = [];
 
 //CONTROLES
 window.addEventListener("keydown", function (e) {
   switch (e.keyCode) {
     case 37:
       teclas.esquerda = true;
+      stackKeysDown = Array.from(new Set([...stackKeysDown, "esquerda"]));
+      teclas.direita = false;
+      teclas.baixo = false;
+      teclas.cima = false;
       break;
     case 38:
       teclas.cima = true;
+      stackKeysDown = Array.from(new Set([...stackKeysDown, "cima"]));
+      teclas.direita = false;
+      teclas.esquerda = false;
+      teclas.baixo = false;
       break;
     case 39:
       teclas.direita = true;
+      stackKeysDown = Array.from(new Set([...stackKeysDown, "direita"]));
+      teclas.esquerda = false;
+      teclas.cima = false;
+      teclas.baixo = false;
       break;
     case 40:
       teclas.baixo = true;
+      stackKeysDown = Array.from(new Set([...stackKeysDown, "baixo"]));
+      teclas.direita = false;
+      teclas.esquerda = false;
+      teclas.cima = false;
       break;
     case 37:
       espaco = true;
@@ -2029,19 +536,32 @@ window.addEventListener("keydown", function (e) {
       break;
   }
 });
+
 window.addEventListener("keyup", function (e) {
   switch (e.keyCode) {
     case 37:
       teclas.esquerda = false;
+      stackKeysDown = stackKeysDown.filter((k) => k !== "esquerda");
+      teclas[stackKeysDown[stackKeysDown.length - 1]] = true;
+
       break;
     case 38:
       teclas.cima = false;
+      stackKeysDown = stackKeysDown.filter((k) => k !== "cima");
+      teclas[stackKeysDown[stackKeysDown.length - 1]] = true;
+
       break;
     case 39:
       teclas.direita = false;
+      stackKeysDown = stackKeysDown.filter((k) => k !== "direita");
+      teclas[stackKeysDown[stackKeysDown.length - 1]] = true;
+
       break;
     case 40:
       teclas.baixo = false;
+      stackKeysDown = stackKeysDown.filter((k) => k !== "baixo");
+      teclas[stackKeysDown[stackKeysDown.length - 1]] = true;
+
       break;
     case 37:
       espaco = false;
